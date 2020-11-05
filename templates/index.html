@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>Industrious by TEMPLATED</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="static/css/main.css" />
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<header id="header">
+    <a class="logo" href="index.html">Can't we be better?</a>
+</header>
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h1>Can't we be better?</h1>
+        <p>Finally, the project makes us think about the consequences that will change if we make a better choice.<br />
+            designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons License.</p>
+    </div>
+    <video autoplay loop muted playsinline src="static/images/run.mp4"></video>
+</section>
+
+<!-- Highlights -->
+<section class="wrapper">
+    <div class="inner">
+        <header class="special">
+            <h2>The 108th anniversary of the sinking of the Titanic</h2>
+            <p>April 15, 2020 – West Bend, WI – April 15, 1912 is the historic date of the sinking of the British ocean liner Titanic into the North Atlantic Ocean.</p>
+        </header>
+        <div class="highlights"> RMS Titanic was a British passenger liner operated by the White Star Line that sank in the North Atlantic Ocean in the early morning hours of 15 April 1912, after striking an iceberg during her maiden voyage from Southampton to New York City. Of the estimated 2,224 passengers and crew aboard, more than 1,500 died, making the sinking one of modern history's deadliest peacetime commercial marine disasters. RMS Titanic was the largest ship afloat at the time she entered service and was the second of three Olympic-class ocean liners operated by the White Star Line. She was built by the Harland and Wolff shipyard in Belfast. Thomas Andrews, chief naval architect of the shipyard at the time, died in the disaster.
+
+             Titanic was under the command of Captain Edward Smith, who also went down with the ship. The ocean liner carried some of the wealthiest people in the world, as well as hundreds of emigrants from Great Britain and Ireland, Scandinavia and elsewhere throughout Europe, who were seeking a new life in the United States. The first-class accommodation was designed to be the pinnacle of comfort and luxury, with a gymnasium, swimming pool, libraries, high-class restaurants, and opulent cabins. A high-powered radiotelegraph transmitter was available for sending passenger "marconigrams" and for the ship's operational use. Although Titanic had advanced safety features, such as watertight compartments and remotely activated watertight doors, it only carried enough lifeboats for 1,178 people—about half the number on board, and one third of her total capacity—due to the maritime safety regulations of those days. The ship carried 16 lifeboat davits which could lower three lifeboats each, for a total of 48 boats. However, Titanic carried only a total of 20 lifeboats, four of which were collapsible and proved hard to launch during the sinking.
+             After leaving Southampton on 10 April 1912, Titanic called at Cherbourg in France and Queenstown (now Cobh) in Ireland, before heading west to New York. On 14 April, four days into the crossing and about 375 miles (600 km) south of Newfoundland, she hit an iceberg at 11:40 p.m. ship's time. The collision caused the hull plates to buckle inwards along her starboard (right) side and opened five of her sixteen watertight compartments to the sea; she could only survive four flooding. Meanwhile, passengers and some crew members were evacuated in lifeboats, many of which were launched only partially loaded. A disproportionate number of men were left aboard because of a "women and children first" protocol for loading lifeboats. At 2:20 a.m., she broke apart and foundered with well over one thousand people still aboard. Just under two hours after Titanic sank, the Cunard liner RMS Carpathia arrived and brought aboard an estimated 705 survivors.
+
+             The disaster was met with worldwide shock and outrage at the huge loss of life, as well as the regulatory and operational failures that led to it. Public inquiries in Britain and the United States led to major improvements in maritime safety. One of their most important legacies was the establishment of the International Convention for the Safety of Life at Sea (SOLAS) in 1914, which still governs maritime safety. Several new wireless regulations were passed around the world in an effort to learn from the many missteps in wireless communications—which could have saved many more passengers.
+
+             The wreck of Titanic was discovered in 1985 (73 years after the disaster) during a Franco-American expedition and United States Military mission. The ship was split in two and is gradually disintegrating at a depth of 12,415 feet (2,069.2 fathoms; 3,784 m). Thousands of artefacts have been recovered and displayed at museums around the world. Titanic has become one of the most famous ships in history, depicted in numerous works of popular culture, including books, folk songs, films, exhibits, and memorials. Titanic is the second largest ocean liner wreck in the world, only being surpassed by her sister ship HMHS Britannic, however, she is the largest sunk while in service as a liner, as Britannic was in use as a hospital ship at the time of her sinking. The final survivor of the sinking, Millvina Dean, aged two months at the time, died in 2009 at the age of 97. </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section id="cta" class="wrapper">
+    <div class="container" >
+        <h1> Is this person alive?</h1>
+        <form action = "/pred" method = "POST">
+            <div class="row" style=" margin: 0 auto; width: 800px;">
+                <div style="width: max-content;height: max-content; margin-right: 25px; margin-left: 25px;">
+                    <label for="p_class" class="font-weight-bold text-black">Passenger Class</label>
+                    <div class="field-icon-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="pclass" class="form-control">
+                            <option value="f">1st</option>
+                            <option value="s">2nd</option>
+                            <option value="t">3rd</option>
+                        </select>
+                    </div>
+                </div>
+                <div style="width: max-content;height: max-content;margin-right: 25px;">
+                    <label for="gender" class="font-weight-bold text-black">sex</label>
+                    <div class="field-icon-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="sex" class="form-control">
+                            <option value="f">Female</option>
+                            <option value="m">Male</option>
+                        </select>
+                    </div>
+                </div>
+                <div style="width: max-content;height: max-content;margin-right: 25px;">
+                    <label for="age-band" class="font-weight-bold text-black">Age</label>
+                    <div class="field-icon-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="age" class="form-control">
+                            <option value="b">0~5</option>
+                            <option value="c">6~12</option>
+                            <option value="t">13~18</option>
+                            <option value="s">19~25</option>
+                            <option value="y">26~35</option>
+                            <option valaue=a">36~60</option>
+                            <option value="e">61~</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 align-self-end"style="width: max-content;height: max-content;">
+                    <button class="btn btn-primary btn-block text-white">Check Availabilty</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="wrapper">
+    <div class="inner">
+        <header class="special">
+            <h2>Faucibus consequat lorem</h2>
+            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+        </header>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+        <div class="content">
+            <section>
+                <h3>Accumsan montes viverra</h3>
+                <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+            </section>
+            <section>
+                <h4>Sem turpis amet semper</h4>
+                <ul class="alt">
+                    <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+                    <li><a href="#">Etiam vel lorem sed amet.</a></li>
+                    <li><a href="#">Felis enim feugiat viverra.</a></li>
+                    <li><a href="#">Dolor pulvinar magna etiam.</a></li>
+                </ul>
+            </section>
+            <section>
+                <h4>Magna sed ipsum</h4>
+                <ul class="plain">
+                    <li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+                    <li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                    <li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+                    <li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="copyright">
+            &copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/browser.min.js"></script>
+<script src="static/js/breakpoints.min.js"></script>
+<script src="static/js/util.js"></script>
+<script src="static/js/main.js"></script>
+
+</body>
+</html>
